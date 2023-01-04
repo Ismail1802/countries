@@ -29,7 +29,6 @@ function App() {
             }
           ></Route>
           <Route path="/name/:country" element={<Card />}></Route>
-          <Route path="*" element={<Navigate replace to="/" />}></Route>
         </Routes>
       </div>
     </RegContext.Provider>
