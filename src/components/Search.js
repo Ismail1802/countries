@@ -7,7 +7,14 @@ import { RegContext } from "../context";
 const Search = ({ setInput }) => {
   const [menu, setShowMenu] = useState(false);
   const { region, setRegion } = useContext(RegContext);
-  const regions = ["Africa", "America", "Asia", "Europe", "Oceania"];
+  const regions = [
+    "Filter by Region",
+    "Africa",
+    "America",
+    "Asia",
+    "Europe",
+    "Oceania",
+  ];
 
   const inputChangeHandler = (e) => {
     setInput(e.target.value);

@@ -11,7 +11,7 @@ const Main = ({ input, setInput }) => {
 
   const fetchCountries = useCallback(async () => {
     const response = await fetch(
-      region === "Region By Filter"
+      region === "Filter by Region"
         ? "https://restcountries.com/v3.1/all"
         : `https://restcountries.com/v3.1/region/${region.toLowerCase()}`
     );

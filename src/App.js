@@ -3,7 +3,7 @@ import Main from "./components/Main";
 import "./App.css";
 import React, { useState } from "react";
 import { RegContext } from "./context";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Card from "./components/Card";
 
 function App() {
