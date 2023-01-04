@@ -1,0 +1,115 @@
+::placeholder {
+  color: var(--header-color);
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+.search_content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+#country {
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: var(--header-background);
+  padding-left: 1rem;
+  font-size: 1rem;
+  width: 80%;
+  color: var(--header-color);
+}
+.search_div {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-background);
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.icon {
+  color: var(--header-color);
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+.select-menu {
+  position: relative;
+  width: 50%;
+  margin-top: 2rem;
+  color: var(--header-color);
+  z-index: 2;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.select-menu .select-btn {
+  display: flex;
+  background-color: var(--header-background);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.select-menu .options {
+  position: absolute;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: var(--header-background);
+  width: 100%;
+}
+.options .option {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  background-color: var(--header-background);
+  transition: opacity 0.1s ease;
+}
+.options .option-text {
+  font-size: 1rem;
+}
+.sBtn-text {
+  font-size: 0.9rem;
+  padding-left: 0.5rem;
+}
+.hide {
+  display: none;
+}
+.options .option:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.options .option:active {
+  opacity: 0.2;
+}
+@media (min-width: 1024px) {
+  .area {
+    width: 100%;
+  }
+  /* .area img {
+    width: 80%;
+  } */
+  /* .image_container {} */
+  .article {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .search_content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .search_div {
+    width: 40%;
+    margin: 0;
+  }
+  .select-menu {
+    width: 20%;
+    margin-top: 0;
+  }
+}

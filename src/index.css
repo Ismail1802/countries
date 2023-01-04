@@ -1,0 +1,23 @@
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  box-shadow: 0 0 0 500px var(--header-background) inset !important;
+  -webkit-text-fill-color: var(--header-color) !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+input {
+  font-family: "Nunito Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+button {
+  font-family: "Nunito Sans", sans-serif;
+}
