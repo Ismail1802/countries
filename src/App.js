@@ -18,7 +18,7 @@ function App() {
         <Header mode={mode} setMode={setMode} />
         <Routes>
           <Route
-            path="/main"
+            path="/"
             element={
               <Main
                 item={item}
