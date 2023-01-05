@@ -75,16 +75,19 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    max-width: 1440px;
+    gap: 2rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 1000px;
   }
   .detailed_content img {
-    max-width: 800px;
+    width: 95%;
     box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
   }
   .detailed_content div:first-child {
     flex-basis: 50%;
   }
+
   .back {
     cursor: pointer;
   }
